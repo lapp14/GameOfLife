@@ -1,0 +1,25 @@
+﻿Build started 10/10/2013 5:27:44 PM.
+     1>Project "Z:\3P98\A1\windows\GameOfLife\GameOfLife\GameOfLife.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IGL /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameOfLife.cpp
+         GameOfLife.cpp
+     1>GameOfLife.cpp(32): warning C4091: 'typedef ' : ignored on left of 'cell' when no variable is declared
+     1>GameOfLife.cpp(174): warning C4305: '=' : truncation from 'double' to 'float'
+     1>GameOfLife.cpp(176): warning C4305: '=' : truncation from 'double' to 'float'
+     1>GameOfLife.cpp(182): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GameOfLife.cpp(183): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GameOfLife.cpp(184): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GameOfLife.cpp(327): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GameOfLife.cpp(416): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>GameOfLife.cpp(421): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\3P98\A1\windows\GameOfLife\Release\GameOfLife.exe" /INCREMENTAL:NO /NOLOGO GL/freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\3P98\A1\windows\GameOfLife\Release\GameOfLife.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\3P98\A1\windows\GameOfLife\Release\GameOfLife.lib" /MACHINE:X86 /SAFESEH Release\GameOfLife.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         GameOfLife.vcxproj -> Z:\3P98\A1\windows\GameOfLife\Release\GameOfLife.exe
+     1>Done Building Project "Z:\3P98\A1\windows\GameOfLife\GameOfLife\GameOfLife.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09
